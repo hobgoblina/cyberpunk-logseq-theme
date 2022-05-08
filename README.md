@@ -1,5 +1,5 @@
 # cyberpunk-logseq-theme
-Cyberpunk theme for Logseq, based on endormi's 2077 theme for vscode
+Cyberpunk theme for Logseq, based on [endormi's 2077 theme for vscode](https://github.com/endormi/vscode-2077-theme)
 
 To use, copy the contents of `custom.css` into your Logseq graph's `logseq/custom.css`
 
