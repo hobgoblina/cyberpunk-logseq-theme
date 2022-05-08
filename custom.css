@@ -145,16 +145,24 @@ i.ti {
 }
 
 .left-sidebar-inner a.item i.ti {
-  color: var(--pink-hover);
+  color: var(--orange);
 }
 
 .left-sidebar-inner a.item:hover i.ti {
   color: var(--white);
 }
 
+.block-children-left-border:hover {
+  background-color: var(--orange);
+}
+
+.block-children-left-border {
+  color: var(--orange);
+}
+
 .katex * {
-  color: #973dfd;
-  border-color: #973dfd;
+  color: var(--yellow);
+  border-color: var(--yellow);
 }
 
 .form-checkbox {
@@ -229,6 +237,10 @@ a.tooltip-priority {
 
 .Tooltip__label::after {
   border-bottom-color: var(--ls-quinary-background-color);
+}
+
+.tippy-popper[x-placement^=bottom] [data-animation=shift].enter {
+  transform: translateY(80%);
 }
 
 .page-reference .bracket {
