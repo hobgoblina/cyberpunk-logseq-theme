@@ -227,6 +227,12 @@ a.priority:before {
   color: var(--ls-primary-background-color);
 }
 
+.vc-container.vc-is-dark {
+  background-color: var(--ls-primary-background-color);
+  border-width: 1px;
+  border-color: var(--ls-border-color);
+}
+
 a.tooltip-priority {
   color: var(--ls-tag-text-color);
 }
@@ -260,7 +266,7 @@ a.tag {
   font-weight: 400;
 }
 
-.py-1, .bg-base-3, .ui__modal-panel {
+.py-1, .bg-base-3, .ui__modal-panel, .absolute-modal {
   border-width: 1px;
   border-color: var(--ls-border-color);
 }
@@ -293,12 +299,20 @@ a.tag {
   overflow-y: hidden;
 }
 
-.left-sidebar-inner a.item:hover {
+.left-sidebar-inner a.item:hover, .menu-link:hover {
   background-color: var(--cyan-hover); 
 }
 
-a.chosen {
+a.chosen, .cp__palette-main .chosen, .cp__select-main .chosen {
   background-color: var(--cyan-hover); 
+}
+
+.dark .logseq-tab[data-active="true"] {
+  background-color: #0098df;
+}
+
+.dark .logseq-tab[data-active="false"] {
+  background-color: #087eb4; 
 }
 
 .extensions__code-lang {
