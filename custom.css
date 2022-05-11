@@ -58,8 +58,8 @@ html[data-theme="dark"] {
   --ls-head-text-color: var(--yellow);
   --ls-title-text-color: var(--yellow);
 
-  --ls-link-text-color: var(--pink);
-  --ls-link-text-hover-color: var(--pink-hover);
+  --ls-link-text-color: var(--cyan);
+  --ls-link-text-hover-color: var(--cyan-hover);
 
   --ls-link-ref-text-color: var(--pink);
   --ls-link-ref-text-hover-color: var(--pink-hover);
